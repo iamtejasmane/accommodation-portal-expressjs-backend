@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken')
 const morgan = require('morgan')
 const utils = require('./utils')
 const config = require('./config')
+require('dotenv').config()
+
 
 
 // User routes
